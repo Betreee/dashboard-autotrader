@@ -4,7 +4,7 @@ from src.components.layout import create_layout
 
 def main() -> None:
     
-    app = Dash(external_stylesheets=[BOOTSTRAP]*)
+    app = Dash(external_stylesheets=[BOOTSTRAP])
     app.title="Hello World"
     app.layout=create_layout(app)
     
